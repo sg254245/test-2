@@ -1,0 +1,162 @@
+
+
+body {
+display: grid;
+grid-template-rows: auto 1fr auto;
+grid-template-columns: 1fr;
+background-color: white;
+margin: 0;
+padding: 0;
+
+}
+
+/* Header*/
+
+header {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333;
+color: white;
+padding: 20px;
+height: 50px;
+grid-column: 1/-1;
+
+}
+
+/*Navigation*/
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+
+    display: inline;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+  }
+
+/*Grid Container*/
+
+.container {
+
+display:grid;
+grid-template-columns: 1fr 3fr 1fr;
+grid-template-rows: auto 1fr auto auto;
+gap: 0;
+width: 100%;
+}
+
+/* Sidebars*/
+
+.sidebar {
+
+    background-color: #ddd;
+    padding: 20px;
+
+}
+
+.left-sidebar {
+
+    background: bisque;
+    height: auto;
+
+}
+
+.right-sidebar {
+    background: bisque;
+    height: auto;
+
+}
+
+/*Main Content*/
+
+.main-content {
+
+    background: rgb(152, 251, 220);
+    padding: 20px;
+    height: auto;
+    width: auto;
+
+}
+
+/*Full Width Box*/
+
+.full-width-box {
+
+    background-color: cadetblue;
+    grid-column: 1/-1;
+    height: auto;
+    padding: 50px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    grid-column: 1/-1;
+}
+
+/* Contact-Grid Container*/
+
+.contact-container {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 0;
+    width: 100%;
+}
+
+/* Sidebars*/
+
+.contact-sidebar {
+
+    background-color: #ddd;
+    padding: 20px;
+
+}
+
+.contact-left-sidebar {
+
+    background: bisque;
+    height: auto;
+
+}
+
+.contact-right-sidebar {
+    background: red;
+    height: 400px;
+
+}
+
+/*Main Content*/
+
+.contact-main-content {
+
+    background: palegreen;
+    padding: 20px;
+    height: auto;
+
+}
+
+.Leo {border-radius: 50%;
+    border:5px solid #000000; padding:3px; margin:5px
+    }
+     
