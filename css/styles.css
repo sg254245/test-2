@@ -159,4 +159,11 @@ footer{
 .Leo {border-radius: 50%;
     border:5px solid #000000; padding:3px; margin:5px
     }
-     
+
+
+.main-content img {
+        width: 400px;
+        height: 400px;
+        object-fit: cover; /* Ensures the image maintains aspect ratio while filling the space */
+    }
+    
